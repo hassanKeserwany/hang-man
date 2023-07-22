@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Document</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="info">
+                <h3>The word type is : <span></span></h3>
+            </div>
+            <div class="row">
+
+                <div class="hangman-draw ">
+                    <div class="the-draw">
+                        <div class="stand"></div>
+                        <div class="horizental-line"></div>
+                        <div class="vertical-line"></div>
+                        <div class="robe"></div>
+                        <div class="man">
+                            <div class="head"></div>
+                            <div class="body"></div>
+                            <div class="hands"></div>
+                            <div class="legs"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="letters"> </div>
+
+            </div>
+
+            <hr>
+            <div class="letters-guess"></div>
+            <div class="wrong">The number of wrong attemps : <span>0</span></div>
+            <div class="end">The Word Is : <span>______</span></div>
+
+        </div>
+
+
+
+        <audio id="success" src="res/sound/trueSound.wav" preload="auto"></audio>
+        <audio id="fail" src="res/sound/falseSound.mp3" preload="auto"></audio>
+
+        <script src="main.js"></script>
+    </body>
+
+</html>
